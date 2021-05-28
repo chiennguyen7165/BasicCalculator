@@ -1,0 +1,52 @@
+table {
+  position: absolute;
+  width: 424px;
+  height: 506px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+#answer {
+  position: absolute;
+  width: 373px;
+  height: 85px;
+  left: 25px;
+  top: 20px;
+
+  background: rgba(196, 196, 196, 0.21);
+  border: 1px solid rgba(122, 65, 65, 0.09);
+  box-sizing: border-box;
+}
+input {
+  position: absolute;
+  width: 85px;
+  height: 56px;
+  top: 119px;
+  background: rgba(196, 196, 196, 0.7);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.col1{
+    left: 25px;
+}
+.col2{
+    left: 121px;
+}
+.col3{
+    left: 217px;
+}
+.col4{
+    left: 316px;
+}
