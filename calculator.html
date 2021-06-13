@@ -9,29 +9,37 @@
 
 <body>
     <form name="calc">
-        <table id="table1" border="1" onclick="handleClick(event);">
-            <thead>
-              <tr>
-                  <th>Select
-            </thead>
-            <tbody>
-               <tr> 
-                   <td>
-                       <form name="f1" action="#" >
-                        <input id="edit1" type="submit" name="edit" value="Edit">
-                       </form>
-               <tr> 
-                   <td>
-                       <form name="f2" action="#" >
-                        <input id="edit2" type="submit" name="edit" value="Edit">
-                       </form>
-               <tr> 
-                   <td>
-                       <form name="f3" action="#" >
-                        <input id="edit3" type="submit" name="edit" value="Edit">
-                       </form>
-        
-           </tbody>
+        <table>
+            <tr>
+                <td>
+                    <input type="text" name="input" size="16" id="answer">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="1" onclick="showValue('1')">
+                    <input type="button" value="2" onclick="showValue('2')">
+                    <input type="button" value="3" onclick="showValue('3')">
+                    <input type="button" class="operator"  value="+" onclick="showValue('+')">
+                    <br>
+                    <input type="button" value="4" onclick="showValue('4')">
+                    <input type="button" value="5" onclick="showValue('5')">
+                    <input type="button" value="6" onclick="showValue('6')">
+                    <input type="button" class="operator" value="-" onclick="showValue('-')">
+                    <br>
+                    <input type="button" value="7" onclick="showValue('7')">
+                    <input type="button" value="8" onclick="showValue('8')">
+                    <input type="button" value="9" onclick="showValue('9')">
+                    <input type="button" class="operator" value="*" onclick="showValue('*')">
+                    <br>
+                    <input type="button" id="clear" value=" C " onclick="clearScreen()">
+                    <input type="button" value="0" onclick="showValue('0')">
+                    <input type="button" value=" = " onclick="doIt()">
+                    <input type="button" class="operator" value="/" onclick="showValue('/')">
+                    <br>
+                </td>
+            </tr>
         </table>
 
 

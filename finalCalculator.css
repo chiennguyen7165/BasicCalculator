@@ -1,0 +1,117 @@
+.boundary {
+  position: absolute;
+  width: 424px;
+  height: 506px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.myFont {
+  width: 25px;
+  height: 26px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+
+  color: #000000;
+}
+.myFont:hover {
+  background-color: #71c9df;
+  font-weight: bold;
+}
+
+.herFont {
+  width: 18px;
+  height: 21px;
+  padding-top: 126px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+
+  color: #ffffff;
+}
+/* .herFont:hover {
+  background-color: #cfa06b;
+  font-weight: bold;
+} */
+
+.screen {
+  position: absolute;
+  width: 373px;
+  height: 85px;
+  left: 25px;
+  top: 20px;
+
+  background: rgba(196, 196, 196, 0.21);
+  border: 1px solid rgba(122, 65, 65, 0.09);
+  box-sizing: border-box;
+}
+
+.col1 {
+  position: absolute;
+  width: 85px;
+  height: 56px;
+  left: 25px;
+  background: rgba(196, 196, 196, 0.7);
+}
+
+.col2 {
+  position: absolute;
+  width: 85px;
+  height: 56px;
+  left: 121px;
+  background: rgba(196, 196, 196, 0.7);
+}
+
+.col3 {
+  position: absolute;
+  width: 85px;
+  height: 56px;
+  left: 217px;
+  background: rgba(196, 196, 196, 0.7);
+}
+
+.col4 {
+  position: absolute;
+  width: 85px;
+  height: 56px;
+  left: 316px;
+  background: rgba(196, 196, 196, 0.7);
+}
+
+.row1 {
+  top: 119px;
+}
+.row2 {
+  top: 194px;
+}
+.row3 {
+  top: 267px;
+}
+.row4 {
+  top: 342px;
+}
+.row5 {
+  top: 417px;
+}
+.dpn {
+  height: 279px;
+  top: 194px;
+  background: #4d90fe;
+}

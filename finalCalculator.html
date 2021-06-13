@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator Final Version </title>
+        <link rel="stylesheet" href="finalCalculator.css">
+        <script src="./finalCalculator.js"></script>
+    </head>
+    <body>
+        <div class="boundary">
+            <div>
+                <div>
+                    <input class="screen myFont" type="text" name="input" id="show">
+                </div>
+            </div>
+            <div class="keyboard">
+                <div>
+                    <div class="col1 row1">
+                        <div class="myFont" onclick="showValue('+')">+</div>
+                    </div>
+                    <div class="col1 row2">
+                        <div class="myFont" onclick="showValue('7')">7</div>
+                    </div>
+                    <div class="col1 row3">
+                        <div class="myFont" onclick="showValue('4')">4</div>
+                    </div>
+                    <div class="col1 row4">
+                        <div class="myFont" onclick="showValue('1')">1</div>
+                    </div>
+                    <div class="col1 row5">
+                        <div class="myFont" onclick="showValue('0')">0</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="col2 row1">
+                        <div class="myFont" onclick="showValue('-')">-</div>
+                    </div>
+                    <div class="col2 row2">
+                        <div class="myFont" onclick="showValue('8')">8</div>
+                    </div>
+                    <div class="col2 row3">
+                        <div class="myFont" onclick="showValue('5')">5</div>
+                    </div>
+                    <div class="col2 row4">
+                        <div class="myFont" onclick="showValue('2')">2</div>
+                    </div>
+                    <div class="col2 row5">
+                        <div class="myFont" onclick="showValue('.')">.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="col3 row1">
+                        <div class="myFont" onclick="showValue('*')">X</div>
+                    </div>  
+                    <div class="col3 row2">
+                        <div class="myFont" onclick="showValue('9')">9</div>
+                    </div>
+                    <div class="col3 row3">
+                        <div class="myFont" onclick="showValue('6')">6</div>
+                    </div>
+                    <div class="col3 row4">
+                        <div class="myFont" onclick="showValue('3')">3</div>
+                    </div>
+                    <div class="col3 row5">
+                        <div class="myFont" onclick="clearScreen()">C</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="col4 row1">
+                        <div class="myFont" onclick="showValue('/')">/</div>
+                    </div>
+                    <div class="col4 dpn">
+                        <div class="herFont" onclick="doIt()">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
