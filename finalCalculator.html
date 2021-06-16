@@ -5,70 +5,70 @@
         <link rel="stylesheet" href="finalCalculator.css">
     </head>
     <body>
-        <div class="calculator">
-            <div class="calculator__screen">
+        <div class="cal">
+            <div class="cal__scre">
                 <div>
-                    <input class="calculator__screen--show calculator__font" type="text" name="input" id="show">
+                    <input class="cal__scre--show cal__font" type="text" name="input" id="show">
                 </div>
             </div>
-            <div class="calculator__keyboard">
-                <div class="calculator__keyboard__button">
-                    <div class="calculator__keyboard__button--col-1 calculator__keyboard__button--row-1">
-                        <div onclick="showValue('+')" class="calculator__font">+</div>
+            <div class="cal__keyb">
+                <div class="cal__keyb__btn">
+                    <div class="cal__keyb__btn--col-1 cal__keyb__btn--row-1" onclick="showValue('+')">
+                        <div class="cal__font">+</div>
                     </div>
-                    <div class="calculator__keyboard__button--col-1 calculator__keyboard__button--row-2">
-                        <div onclick="showValue('7')" class="calculator__font">7</div>
+                    <div class="cal__keyb__btn--col-1 cal__keyb__btn--row-2" onclick="showValue('7')">
+                        <div class="cal__font">7</div>
                     </div>
-                    <div class="calculator__keyboard__button--col-1 calculator__keyboard__button--row-3">
-                        <div onclick="showValue('4')" class="calculator__font">4</div>
+                    <div class="cal__keyb__btn--col-1 cal__keyb__btn--row-3" onclick="showValue('4')">
+                        <div class="cal__font">4</div>
                     </div>
-                    <div class="calculator__keyboard__button--col-1 calculator__keyboard__button--row-4">
-                        <div onclick="showValue('1')" class="calculator__font">1</div>
+                    <div class="cal__keyb__btn--col-1 cal__keyb__btn--row-4" onclick="showValue('1')">
+                        <div class="cal__font">1</div>
                     </div>
-                    <div class="calculator__keyboard__button--col-1 calculator__keyboard__button--row-5">
-                        <div onclick="showValue('0')" class="calculator__font">0</div>
-                    </div>
-                </div>
-                <div class="calculator__keyboard__button">
-                    <div class="calculator__keyboard__button--col-2 calculator__keyboard__button--row-1">
-                        <div onclick="showValue('-')" class="calculator__font">-</div>
-                    </div>
-                    <div class="calculator__keyboard__button--col-2 calculator__keyboard__button--row-2">
-                        <div onclick="showValue('8')" class="calculator__font">8</div>
-                    </div>
-                    <div class="calculator__keyboard__button--col-2 calculator__keyboard__button--row-3">
-                        <div onclick="showValue('5')" class="calculator__font">5</div>
-                    </div>
-                    <div class="calculator__keyboard__button--col-2 calculator__keyboard__button--row-4">
-                        <div onclick="showValue('2')" class="calculator__font">2</div>
-                    </div>
-                    <div class="calculator__keyboard__button--col-2 calculator__keyboard__button--row-5">
-                        <div onclick="showValue('.')" class="calculator__font">.</div>
+                    <div class="cal__keyb__btn--col-1 cal__keyb__btn--row-5" onclick="showValue('0')">
+                        <div class="cal__font">0</div>
                     </div>
                 </div>
-                <div class="calculator__keyboard__button">
-                    <div class="calculator__keyboard__button--col-3 calculator__keyboard__button--row-1">
-                        <div onclick="showValue('*')" class="calculator__font">X</div>
+                <div class="cal__keyb__btn">
+                    <div class="cal__keyb__btn--col-2 cal__keyb__btn--row-1" onclick="showValue('-')">
+                        <div class="cal__font">-</div>
+                    </div>
+                    <div class="cal__keyb__btn--col-2 cal__keyb__btn--row-2" onclick="showValue('8')">
+                        <div class="cal__font">8</div>
+                    </div>
+                    <div class="cal__keyb__btn--col-2 cal__keyb__btn--row-3" onclick="showValue('5')">
+                        <div class="cal__font">5</div>
+                    </div>
+                    <div class="cal__keyb__btn--col-2 cal__keyb__btn--row-4" onclick="showValue('2')">
+                        <div class="cal__font">2</div>
+                    </div>
+                    <div class="cal__keyb__btn--col-2 cal__keyb__btn--row-5" onclick="showValue('.')">
+                        <div class="cal__font">.</div>
+                    </div>
+                </div>
+                <div class="cal__keyb__btn">
+                    <div class="cal__keyb__btn--col-3 cal__keyb__btn--row-1" onclick="showValue('*')">
+                        <div class="cal__font">X</div>
                     </div>  
-                    <div class="calculator__keyboard__button--col-3 calculator__keyboard__button--row-2">
-                        <div onclick="showValue('9')" class="calculator__font">9</div>
+                    <div class="cal__keyb__btn--col-3 cal__keyb__btn--row-2" onclick="showValue('9')">
+                        <div class="cal__font">9</div>
                     </div>
-                    <div class="calculator__keyboard__button--col-3 calculator__keyboard__button--row-3">
-                        <div onclick="showValue('6')" class="calculator__font">6</div>
+                    <div class="cal__keyb__btn--col-3 cal__keyb__btn--row-3" onclick="showValue('6')">
+                        <div class="cal__font">6</div>
                     </div>
-                    <div class="calculator__keyboard__button--col-3 calculator__keyboard__button--row-4">
-                        <div onclick="showValue('3')" class="calculator__font">3</div>
+                    <div class="cal__keyb__btn--col-3 cal__keyb__btn--row-4" onclick="showValue('3')">
+                        <div class="cal__font">3</div>
                     </div>
-                    <div class="calculator__keyboard__button--col-3 calculator__keyboard__button--row-5">
-                        <div onclick="clearScreen()" class="calculator__font">C</div>
+                    <div class="cal__keyb__btn--col-3 cal__keyb__btn--row-5" onclick="clearScreen()">
+                        <div class="cal__font">C</div>
                     </div>
                 </div>
-                <div class="calculator__keyboard__button">
-                    <div class="calculator__keyboard__button--col-4 calculator__keyboard__button--row-1">
-                        <div class="calculator__font" onclick="showValue('/')">/</div>
+                <div class="cal__keyb__btn">
+                    <div class="cal__keyb__btn--col-4 cal__keyb__btn--row-1" onclick="showValue('/')">
+                        <div class="cal__font">/</div>
                     </div>
-                    <div class="calculator__keyboard__button--col-4 calculator__keyboard__button--equal">
-                        <div class="calculator__font--equal" onclick="doIt()">=</div>
+                    <div class="cal__keyb__btn--col-4 cal__keyb__btn--equal" onclick="doIt()">
+                        <div class="cal__font--equal">=</div>
                     </div>
                 </div>
             </div>

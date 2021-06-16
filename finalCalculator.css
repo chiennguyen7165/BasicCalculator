@@ -1,4 +1,4 @@
-.calculator {
+.cal {
   position: absolute;
   width: 424px;
   height: 506px;
@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.calculator__font {
+.cal__font {
   width: 25px;
   height: 26px;
   padding-top: 15px;
@@ -26,12 +26,12 @@
 
   color: #000000;
 }
-.calculator__font:hover {
+.cal__font:hover {
   background-color: #71c9df;
   font-weight: bold;
 }
 
-.calculator__font--equal {
+.cal__font--equal {
   width: 18px;
   height: 21px;
   padding-top: 126px;
@@ -51,7 +51,7 @@
   font-weight: bold;
 } */
 
-.calculator__screen--show {
+.cal__scre--show {
   position: absolute;
   width: 373px;
   height: 85px;
@@ -66,31 +66,31 @@
   /* overflow: auto; */
 }
 
-.calculator__keyboard__button {
+.cal__keyb__btn {
   width: 85px;
   height: 56px;
   cursor: pointer;
 }
 
-.calculator__keyboard__button--col-1 {
+.cal__keyb__btn--col-1 {
   position: absolute;
   left: 25px;
   background: rgba(196, 196, 196, 0.7);
 }
 
-.calculator__keyboard__button--col-2 {
+.cal__keyb__btn--col-2 {
   position: absolute;
   left: 121px;
   background: rgba(196, 196, 196, 0.7);
 }
 
-.calculator__keyboard__button--col-3 {
+.cal__keyb__btn--col-3 {
   position: absolute;
   left: 217px;
   background: rgba(196, 196, 196, 0.7);
 }
 
-.calculator__keyboard__button--col-4 {
+.cal__keyb__btn--col-4 {
   position: absolute;
   width: 85px;
   height: 56px;
@@ -98,22 +98,22 @@
   background: rgba(196, 196, 196, 0.7);
 }
 
-.calculator__keyboard__button--row-1 {
+.cal__keyb__btn--row-1 {
   top: 119px;
 }
-.calculator__keyboard__button--row-2 {
+.cal__keyb__btn--row-2 {
   top: 194px;
 }
-.calculator__keyboard__button--row-3 {
+.cal__keyb__btn--row-3 {
   top: 267px;
 }
-.calculator__keyboard__button--row-4 {
+.cal__keyb__btn--row-4 {
   top: 342px;
 }
-.calculator__keyboard__button--row-5 {
+.cal__keyb__btn--row-5 {
   top: 417px;
 }
-.calculator__keyboard__button--equal {
+.cal__keyb__btn--equal {
   height: 279px;
   top: 194px;
   background: #4d90fe;
