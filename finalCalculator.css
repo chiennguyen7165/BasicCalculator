@@ -1,9 +1,9 @@
-.boundary {
+.calculator {
   position: absolute;
   width: 424px;
   height: 506px;
-  left: 0px;
-  top: 0px;
+  left: 40%;
+  top: auto;
 
   background: #ffffff;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.myFont {
+.calculator__font {
   width: 25px;
   height: 26px;
   padding-top: 15px;
@@ -26,12 +26,12 @@
 
   color: #000000;
 }
-.myFont:hover {
+.calculator__font:hover {
   background-color: #71c9df;
   font-weight: bold;
 }
 
-.herFont {
+.calculator__font--equal {
   width: 18px;
   height: 21px;
   padding-top: 126px;
@@ -51,7 +51,7 @@
   font-weight: bold;
 } */
 
-.screen {
+.calculator__screen--show {
   position: absolute;
   width: 373px;
   height: 85px;
@@ -61,33 +61,36 @@
   background: rgba(196, 196, 196, 0.21);
   border: 1px solid rgba(122, 65, 65, 0.09);
   box-sizing: border-box;
+
+  overflow: scroll;
+  /* overflow: auto; */
 }
 
-.col1 {
-  position: absolute;
+.calculator__keyboard__button {
   width: 85px;
   height: 56px;
+  cursor: pointer;
+}
+
+.calculator__keyboard__button--col-1 {
+  position: absolute;
   left: 25px;
   background: rgba(196, 196, 196, 0.7);
 }
 
-.col2 {
+.calculator__keyboard__button--col-2 {
   position: absolute;
-  width: 85px;
-  height: 56px;
   left: 121px;
   background: rgba(196, 196, 196, 0.7);
 }
 
-.col3 {
+.calculator__keyboard__button--col-3 {
   position: absolute;
-  width: 85px;
-  height: 56px;
   left: 217px;
   background: rgba(196, 196, 196, 0.7);
 }
 
-.col4 {
+.calculator__keyboard__button--col-4 {
   position: absolute;
   width: 85px;
   height: 56px;
@@ -95,22 +98,22 @@
   background: rgba(196, 196, 196, 0.7);
 }
 
-.row1 {
+.calculator__keyboard__button--row-1 {
   top: 119px;
 }
-.row2 {
+.calculator__keyboard__button--row-2 {
   top: 194px;
 }
-.row3 {
+.calculator__keyboard__button--row-3 {
   top: 267px;
 }
-.row4 {
+.calculator__keyboard__button--row-4 {
   top: 342px;
 }
-.row5 {
+.calculator__keyboard__button--row-5 {
   top: 417px;
 }
-.dpn {
+.calculator__keyboard__button--equal {
   height: 279px;
   top: 194px;
   background: #4d90fe;
